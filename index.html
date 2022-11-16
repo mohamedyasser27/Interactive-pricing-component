@@ -20,11 +20,28 @@
     <title>Frontend Mentor | Interactive pricing component</title>
   </head>
   <body>
-    <!-- Simple, traffic-based pricing
-  Sign-up for our 30-day trial. No credit card required. 
+    <main>
 
-  Pageviews
-  $ /month
+      <h1>Simple, traffic-based pricing</h1>
+      <h2>Sign-up for our 30-day trial. No credit card required.</h2>
+      <section class="pricing-card">
+        <p>100 Pageviews $ /month</p>
+        <div class="price-range">
+          <div class="price-range__progress"></div>
+        <input type="range" name="price-range" id="price-range__input" />
+      </div>
+      <div class="toggleArea">
+        <p>Monthly</p>
+        <div class="toggle">
+          <div class="toggleBtn"></div>
+        </div>
+        <p>Annually</p>
+      </div>
+    </section>
+    </main>
+
+    <!--
+
 
   Monthly Billing
   Yearly Billing 25% discount
