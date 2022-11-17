@@ -1,6 +1,6 @@
 const priceRange = document.querySelector("#price-range__input");
 const priceRangeProgress = document.querySelector(".price-range__progress");
-
+priceRange.value = 50;
 priceRange.addEventListener("mouseup", () => {
   priceRange.blur();
 });
@@ -33,4 +33,6 @@ let togglePeriodBtn = document.querySelector(".toggleBtn");
 
 togglePeriod.addEventListener("click", function (event) {
   togglePeriodBtn.classList.toggle("annual");
+  togglePeriod.classList.toggle("annual");
+
 });
